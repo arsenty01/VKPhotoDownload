@@ -1,13 +1,11 @@
-# https://oauth.vk.com/authorize?client_id=8225570&display=page&redirect_uri=https%3A%2F%2Foauth.vk.com%2Fblank.html&scope=photos&response_type=token&v=5.52
-
 from typing import Optional, Any
 import requests
 import json
 import os
 
 
-VK_token = 'vk1.a.8u6FMMTwFhzrWLCXrp8kpklH0mjF_EdsDvNgBIRHN_bemnFZdF3iac8SxO1cQ0tXQVlTf3AYZsuy8qR7RygTKT_YLjAOD4FE8SaDBrG7i7jOk5Nb_VKl9DqFbubF8D5ouZvv6L7d8HogMmzMrT1mOzdPj9V39i6s2QZtq-c4gLVwLHUOKPem2TPBMXHbXC1X'
-VK_userid = '137239236'
+VK_token = ''
+VK_userid = ''
 
 
 class VKPhotoDownload:
